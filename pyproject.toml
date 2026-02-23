@@ -1,0 +1,18 @@
+[project]
+name = "django-messenger"
+version = "0.1.0"
+description = "Messenger wrote on python django"
+authors = [
+    {name = "fand1l",email = "fand1l@outlook.com"}
+]
+license = {text = "GNU GENERAL PUBLIC LICENSE Version 3"}
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=6.0.2,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
